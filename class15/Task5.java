@@ -13,8 +13,6 @@ public class Task5 {
         return firstName + lastName + "@" + emailType + ".com";
     }
 
-    //Break till 11:50
-
     public static void main(String[] args) {
         Task5 task = new Task5();
         System.out.println(task.completeEmail("Tara", "Sitara", "gmail"));
